@@ -21,12 +21,7 @@ public class MainVer3Interface {
         accountService.registerAccount(new AccountEntity(), phoneNum, content);
 
         // 3.gửi xác nhận telegram qua constructor
-        TelegramSender telegramSender = new TelegramSender();
-        accountService.setNotiService(telegramSender);
 
-        String account = "Test";
-        content = "DI-Ver3: An telegram message has sent to " + account;
-        accountService.registerAccount(new AccountEntity(), account, content);
 
         // 4. gửi xác nhận qua Whatsapp dùng class Anonymous(lớp ẩn danh)
 
