@@ -13,7 +13,7 @@ public class AccountService {
     public void registerAccount(AccountEntity account) {
         //gọi repo xử lí đăng kí thành viên
 
-        //Thông báo xác nhận
+        //Thông báo xác nhận, cần lấy từ accountentity nhưng ta đang demo nên tự tạo như ở dưới
         String email = "test@gmail.com";
         String content = "DI-Ver1: Your verification code is 1234.";
         emailSender.sendEmail(email, content);

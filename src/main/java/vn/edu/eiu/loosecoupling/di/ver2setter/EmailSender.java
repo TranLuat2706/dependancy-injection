@@ -5,6 +5,6 @@ public class EmailSender {
         //đã xử lí gửi email
 
         //thông báo
-        System.out.println("DI-Ver1: An email has sent to " + toEmail + "\n with content: " + content);
+        System.out.println("DI-Ver2: An email has sent to " + toEmail + "\n with content: " + content);
     }
 }
